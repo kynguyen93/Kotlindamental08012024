@@ -100,18 +100,116 @@ fun main() {
     //}
 
     // 5: Vòng lặp for (duyệt dữ liệu trong một khoảng nào đó)
-    for (value in 100 downTo 1) {
-        // 1. chỉ in ra số chẵn
-        //solution: số chia hết cho 2
-        if (value % 2 == 0) {
-            println(value)
-        }
+    //for (value in 100 downTo 1) {
+    // 1. chỉ in ra số chẵn
+    //solution: số chia hết cho 2
+    //if (value % 2 == 0) {
+    //    println(value)
+    //}
 
-        // 2. ch in ra số lẻ
-        // solution: số chia hết cho 2 dư 1
-        if (value % 2 == 1) {
-            println(value)
-        }
-    }
+    // 2. ch in ra số lẻ
+    // solution: số chia hết cho 2 dư 1
+    //if (value % 2 == 1) {
+    //    println(value)
+    //}
+
+    // 3: chỉ in ra số chia 3 dư 1
+    //if (value % 3 == 1) {
+    //    println(value)
+    //}
+
+    // println(value)
+    //}
+
+    // Kiểm tra số nguyên tố
+
+    //var number = 408
+    //var isprime = true
+
+    //if (number < 2) {
+    //    println("không phải là số nguyên tố")
+    //} else {
+    //    for (value in 2..<number) {
+    //if (number % value == 0) {
+    // ước thứ 3 xuất hiện
+    //            isprime = false
+    //    }
+    //       if (isprime) {
+    //          println("là số nguyên tố")
+    //      } else {
+    //         println("không phải là số nguyên tố")
+    //     }
+    //  }
+   // }
+
+    // 6: Hàm lập while
+    //var index = 0
+    //while (index <= 10) {
+    //  var tmpIndex =index
+    //  index += 1
+    //  if (index == 2) {
+    //      continue
+    //  }
+    //  println (tmpIndex)
+    // in tất cả các số
+    // chỉ bỏ qua nếu index = 2
+    //val tmpIndex = index
+    //index += 1
+    //if (index == 2) {
+    //   continue
+    //}
+    // }
+
+    //chuyển sang for
+    //for (value in 0..10) {
+    // if (value == 2) continue
+    //  println(value)
+    //}
+
+    // 7: toán tử
+    //var a = 10
+    //var b = 10
+    //var total = a + b
+
+    // có bao nhiêu cách tăng giá trị của a lên 1
+    // cách 1: a = a + 1
+    // cách 2: a += 1
+    // cách 3: a++
+    // cách 4:
+
+    // ví dụ toán tử
+    //var a = 10
+// var b = a++
+// println("A" +a)
+// println("B" +b)
+
+    // ví dụ toán tử 2
+    var a = 10
+    var b = 5
+
+    var result = a-- + b-- + --b + a++ - --b + b-- + a--
+    10 + b-- + --b + a++ - --b + b-- + a-- ; a = 9 ; b = 5
+    10 + 5 + --b + a++ - --b + b-- + a-- ; a = 9 ; b = 4
+    10 + 5 + 3 + a++ - --b + b-- + a-- ; a = 9 ; b = 3
+    10 + 5 + 3 + 9 - --b + b-- + a-- ; a = 10 ; b = 3
+    10 + 5 + 3 + 9 - 2 + b-- + a-- ; a = 10 ; b = 2
+    10 + 5 + 3 + 9 - 2 + 2 + a-- ; a = 10 ; b = 1
+    10 + 5 + 3 + 9 - 2 + 2 + 10 ; a = 9 ; b = 1
+
+    // a = ?
+    // b = ?
+    // result = ?
+
+    println(a)
+    println(b)
+    println(result)
+
 
 }
+
+
+
+
+
+
+
