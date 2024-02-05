@@ -209,20 +209,25 @@ fun main() {
 //    println(result)
 
 
-    // Class và object ( Instance )
-    // Coi thêm giải thích về solid
+//     Class và object ( Instance )
+//     Coi thêm giải thích về solid
 
-    // khởi tạo object
-    var teo: Person = Person( "teo", 3, "quận 10")
+//     khởi tạo object
+    var teo: Person = Person("teo", 3, "quận 10")
     teo.address = "quận 10"
     teo.name = "Nguyễn văn teo"
     teo.age = 3
 
+    var number1 = 5
+    var number2 = 10
+
+    var teo2 = teo
+    teo2.name = "teo2"
+    println("teo" + teo.name)
+    println("teo2" + teo2.name)
+
 }
 
-
-
-
-
-
-
+fun printObject(ob: Person) {
+    ob.name = "Ti"
+}
