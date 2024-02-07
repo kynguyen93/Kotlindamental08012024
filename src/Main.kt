@@ -214,20 +214,17 @@ fun main() {
 
 //     khởi tạo object
     var teo: Person = Person("teo", 3, "quận 10")
-    teo.address = "quận 10"
-    teo.name = "Nguyễn văn teo"
-    teo.age = 3
+    teo.setName("nguyễn văn tèo")
+    teo.height = 1f
+    println(teo.height)
 
-    var number1 = 5
-    var number2 = 10
 
-    var teo2 = teo
-    teo2.name = "teo2"
-    println("teo" + teo.name)
-    println("teo2" + teo2.name)
+    // tính chất hướng đối tượng
+    // 1. đóng gói:
+    // 2. kế thừa
+    // 3. đa hình
+    // 4. trừu tượng
+    // Quan hệ HAS-A
 
 }
 
-fun printObject(ob: Person) {
-    ob.name = "Ti"
-}

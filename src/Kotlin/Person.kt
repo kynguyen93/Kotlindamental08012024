@@ -1,10 +1,48 @@
 package Kotlin
 
 class Person(
-    var name: String,
-    var age: Int,
-    var address: String? = null
+    private var name: String,
+    private var age: Int,
+    private var address: String? = null
     ) {
+    // getter và setter
+    var height: Float = 0f
+        set(value) {
+            field = value +1
+        }
+
+        get() {
+            return field - 3
+        }
+
+
+    // getter và setter
+
+    fun getName(): String {
+        return name
+    }
+
+    fun setName(name: String) {
+        this.name = name
+    }
+
+    fun getAge(): Int {
+        return age
+        }
+
+    fun setAge( age: Int) {
+        this.age = age
+    }
+
+    fun getAddress(): String? {
+        return address
+    }
+
+    fun setAddress(address: String) {
+        this.address = address
+    }
+
+
     // Thuộc tính
     //var name: String = ""
     //var age: Int = 0
