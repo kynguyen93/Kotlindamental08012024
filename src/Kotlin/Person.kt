@@ -6,41 +6,41 @@ class Person(
     private var address: String? = null
     ) {
     // getter và setter
-    var height: Float = 0f
-        set(value) {
-            field = value +1
-        }
-
-        get() {
-            return field - 3
-        }
+//    var height: Float = 0f
+//        set(value) {
+//            field = value +1
+//        }
+//
+//        get() {
+//            return field - 3
+//        }
 
 
     // getter và setter
 
-    fun getName(): String {
-        return name
-    }
-
-    fun setName(name: String) {
-        this.name = name
-    }
-
-    fun getAge(): Int {
-        return age
-        }
-
-    fun setAge( age: Int) {
-        this.age = age
-    }
-
-    fun getAddress(): String? {
-        return address
-    }
-
-    fun setAddress(address: String) {
-        this.address = address
-    }
+//    fun getName(): String {
+//        return name
+//    }
+//
+//    fun setName(name: String) {
+//        this.name = name
+//    }
+//
+//    fun getAge(): Int {
+//        return age
+//        }
+//
+//    fun setAge( age: Int) {
+//        this.age = age
+//    }
+//
+//    fun getAddress(): String? {
+//        return address
+//    }
+//
+//    fun setAddress(address: String) {
+//        this.address = address
+//    }
 
 
     // Thuộc tính
@@ -51,14 +51,14 @@ class Person(
     // Để ràng buộc các tham số cho việc khởi tạo
 
     // second constructor
-    constructor(
-        name: String,
-        age: Int,
-        address: String?,
-        height: Float
-    ): this(name, age, address) {
-
-    }
+//    constructor(
+//        name: String,
+//        age: Int,
+//        address: String?,
+//        height: Float
+//    ): this(name, age, address) {
+//
+//    }
 
     // Tham trị: khi truyền dữ liệu chỉ truyền giá trị
     // sử dụng kiểu dữ liệu nguyên thủy: String, Boolean, Int, Float...

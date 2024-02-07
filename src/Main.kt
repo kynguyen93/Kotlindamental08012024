@@ -1,5 +1,3 @@
-import Kotlin.Person
-
 fun main() {
 
 
@@ -213,14 +211,14 @@ fun main() {
 //     Coi thêm giải thích về solid
 
 //     khởi tạo object
-    var teo: Person = Person("teo", 3, "quận 10")
-    teo.setName("nguyễn văn tèo")
-    teo.height = 1f
-    println(teo.height)
+//    var teo: Person = Person("teo", 3, "quận 10")
+//    teo.setName("nguyễn văn tèo")
+//    teo.height = 1f
+//    println(teo.height)
 
 
     // tính chất hướng đối tượng
-    // 1. đóng gói:
+    // 1. đóng gói: Quản lý giá trị đầu vào - triển khai bằng getter, setter, visibility visible
     // 2. kế thừa
     // 3. đa hình
     // 4. trừu tượng
